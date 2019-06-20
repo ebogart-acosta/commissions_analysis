@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT * FROM #table#%%00010WHERE principal = $${SPRINCIPAL}$$ %%00010and year &gt; 2017%%00010and rtype = 'IN'%%00010and orderno &lt;&gt; 0"/>
+<entry key="statement" type="xstring" value="SELECT * FROM #table#%%00010WHERE principal = $${SPRINCIPAL}$$ %%00010and year &gt; 2017%%00010and rtype = 'IN'%%00010and orderno &lt;&gt; 0%%00010group by principal, year, customer, cust_name, mcustomer, shipto, odate, sdate, ponumb, invoiceno, %%00010addr1, city, state, zip, st_name, rtype, orderno, control"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.informix.jdbc.IfxDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="0703ed1e-2536-4822-9120-c9cf44e4ff37"/>
+<entry key="file_store_id" type="xstring" value="0636cead-c223-4634-bcd8-21b7cdbc6bc5"/>
 </config>
 </config>

@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="select control, count(distinct(product)) as unique_items from ordinv_detail%%00010group by control"/>
+<entry key="statement" type="xstring" value="select h.principal, year(h.odate) as year, h.rtype, h.orderno, h.control, d.product%%00010from ordinv_header as h%%00010inner join ordinv_detail as d ON h.control = d.control"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.informix.jdbc.IfxDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -44,7 +44,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 2 DB: default"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 6 DB: default"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="6e02fe61-8414-4f54-9d1a-f2fecd176499"/>
+<entry key="file_store_id" type="xstring" value="2de40728-fb70-43b5-9297-c5f51b4da28c"/>
 </config>
 </config>
