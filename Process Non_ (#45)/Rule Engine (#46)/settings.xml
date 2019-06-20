@@ -22,6 +22,20 @@
 <entry key="append-column" type="xboolean" value="true"/>
 <entry key="disallowLongOutputForCompatibility" type="xboolean" value="false"/>
 </config>
+<config key="nodeAnnotation">
+<entry key="text" type="xstring" value="Compare Missing%%00013%%00010Invoices to%%00013%%00010Matching Ones"/>
+<entry key="bgcolor" type="xint" value="16777215"/>
+<entry key="x-coordinate" type="xint" value="907"/>
+<entry key="y-coordinate" type="xint" value="419"/>
+<entry key="width" type="xint" value="106"/>
+<entry key="height" type="xint" value="45"/>
+<entry key="alignment" type="xstring" value="CENTER"/>
+<entry key="borderSize" type="xint" value="0"/>
+<entry key="borderColor" type="xint" value="16777215"/>
+<entry key="defFontSize" type="xint" value="9"/>
+<entry key="annotation-version" type="xint" value="20151123"/>
+<config key="styles"/>
+</config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.rules.engine.RuleEngineNodeFactory"/>
@@ -49,6 +63,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="4dd3c411-71c1-4759-b6c1-ae9e8ffbde4b"/>
+<entry key="file_store_id" type="xstring" value="d1f9b476-76b5-4b96-a074-2587484fc555"/>
 </config>
 </config>

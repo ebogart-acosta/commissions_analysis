@@ -100,12 +100,12 @@
 <entry key="version" type="xstring" value="version_3"/>
 </config>
 <config key="nodeAnnotation">
-<entry key="text" type="xstring" value="Join on%%00013%%00010Invoice"/>
+<entry key="text" type="xstring" value="Join on%%00013%%00010Invoice%%00013%%00010(Right Outer)"/>
 <entry key="bgcolor" type="xint" value="16777215"/>
-<entry key="x-coordinate" type="xint" value="187"/>
-<entry key="y-coordinate" type="xint" value="499"/>
+<entry key="x-coordinate" type="xint" value="327"/>
+<entry key="y-coordinate" type="xint" value="599"/>
 <entry key="width" type="xint" value="106"/>
-<entry key="height" type="xint" value="30"/>
+<entry key="height" type="xint" value="45"/>
 <entry key="alignment" type="xstring" value="CENTER"/>
 <entry key="borderSize" type="xint" value="0"/>
 <entry key="borderColor" type="xint" value="16777215"/>
@@ -140,6 +140,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="c37f40b2-5403-4985-af43-9c415ee87bfa"/>
+<entry key="file_store_id" type="xstring" value="ecdf38ef-996d-4f2f-8861-f4f91ef5ef4d"/>
 </config>
 </config>
