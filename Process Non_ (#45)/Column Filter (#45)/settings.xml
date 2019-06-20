@@ -1,0 +1,124 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<config xmlns="http://www.knime.org/2008/09/XMLConfig" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://www.knime.org/2008/09/XMLConfig http://www.knime.org/XMLConfig_2008_09.xsd" key="settings.xml">
+<entry key="node_file" type="xstring" value="settings.xml"/>
+<config key="flow_stack"/>
+<config key="internal_node_subsettings">
+<entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
+</config>
+<config key="model">
+<config key="column-filter">
+<entry key="filter-type" type="xstring" value="STANDARD"/>
+<config key="included_names">
+<entry key="array-size" type="xint" value="14"/>
+<entry key="0" type="xstring" value="customer"/>
+<entry key="1" type="xstring" value="mcustomer"/>
+<entry key="2" type="xstring" value="shipto"/>
+<entry key="3" type="xstring" value="odate"/>
+<entry key="4" type="xstring" value="sdate"/>
+<entry key="5" type="xstring" value="addr1"/>
+<entry key="6" type="xstring" value="city"/>
+<entry key="7" type="xstring" value="state"/>
+<entry key="8" type="xstring" value="zip"/>
+<entry key="9" type="xstring" value="cust_name"/>
+<entry key="10" type="xstring" value="st_name"/>
+<entry key="11" type="xstring" value="unique_items"/>
+<entry key="12" type="xstring" value="inv_amount"/>
+<entry key="13" type="xstring" value="GenWeb_Match"/>
+</config>
+<config key="excluded_names">
+<entry key="array-size" type="xint" value="46"/>
+<entry key="0" type="xstring" value="%%65279client_sign_on"/>
+<entry key="1" type="xstring" value="client_name"/>
+<entry key="2" type="xstring" value="rank"/>
+<entry key="3" type="xstring" value="customer_name"/>
+<entry key="4" type="xstring" value="branch_name"/>
+<entry key="5" type="xstring" value="division_name"/>
+<entry key="6" type="xstring" value="invoice"/>
+<entry key="7" type="xstring" value="commission"/>
+<entry key="8" type="xstring" value="commission_rate"/>
+<entry key="9" type="xstring" value="date"/>
+<entry key="10" type="xstring" value="purchase_order"/>
+<entry key="11" type="xstring" value="deduction"/>
+<entry key="12" type="xstring" value="adjustment"/>
+<entry key="13" type="xstring" value="allowance"/>
+<entry key="14" type="xstring" value="billback"/>
+<entry key="15" type="xstring" value="freight"/>
+<entry key="16" type="xstring" value="gross_amount"/>
+<entry key="17" type="xstring" value="net_amount"/>
+<entry key="18" type="xstring" value="commission_base"/>
+<entry key="19" type="xstring" value="order_number"/>
+<entry key="20" type="xstring" value="ship_to_customer"/>
+<entry key="21" type="xstring" value="ship_to_number"/>
+<entry key="22" type="xstring" value="broker_name"/>
+<entry key="23" type="xstring" value="broker_number"/>
+<entry key="24" type="xstring" value="client_division"/>
+<entry key="25" type="xstring" value="broker_customer_name"/>
+<entry key="26" type="xstring" value="customer_number"/>
+<entry key="27" type="xstring" value="item_description"/>
+<entry key="28" type="xstring" value="item_number"/>
+<entry key="29" type="xstring" value="product_hierarchy_description"/>
+<entry key="30" type="xstring" value="product_hierarchy"/>
+<entry key="31" type="xstring" value="quantity"/>
+<entry key="32" type="xstring" value="quantity_invoiced"/>
+<entry key="33" type="xstring" value="sales_credit"/>
+<entry key="34" type="xstring" value="ship_to_city_state"/>
+<entry key="35" type="xstring" value="ship_to_city"/>
+<entry key="36" type="xstring" value="ship_to_state"/>
+<entry key="37" type="xstring" value="unit_of_measure"/>
+<entry key="38" type="xstring" value="unit_price"/>
+<entry key="39" type="xstring" value="month"/>
+<entry key="40" type="xstring" value="year"/>
+<entry key="41" type="xstring" value="check_num"/>
+<entry key="42" type="xstring" value="username"/>
+<entry key="43" type="xstring" value="create_date"/>
+<entry key="44" type="xstring" value="modified_date"/>
+<entry key="45" type="xstring" value="rate"/>
+</config>
+<entry key="enforce_option" type="xstring" value="EnforceExclusion"/>
+<config key="name_pattern">
+<entry key="pattern" type="xstring" value=""/>
+<entry key="type" type="xstring" value="Wildcard"/>
+<entry key="caseSensitive" type="xboolean" value="true"/>
+</config>
+<config key="datatype">
+<config key="typelist">
+<entry key="org.knime.core.data.StringValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.IntValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.DoubleValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.BooleanValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.LongValue" type="xboolean" value="false"/>
+<entry key="org.knime.core.data.date.DateAndTimeValue" type="xboolean" value="false"/>
+</config>
+</config>
+</config>
+</config>
+<entry key="customDescription" type="xstring" isnull="true" value=""/>
+<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.preproc.filter.column.DataColumnSpecFilterNodeFactory"/>
+<entry key="node-name" type="xstring" value="Column Filter"/>
+<entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
+<entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
+<entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-bundle-version" type="xstring" value="3.7.1.v201901291053"/>
+<entry key="node-feature-name" type="xstring" value="KNIME Core"/>
+<entry key="node-feature-symbolic-name" type="xstring" value="org.knime.features.base.feature.group"/>
+<entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
+<entry key="node-feature-version" type="xstring" value="3.7.1.v201901291053"/>
+<config key="factory_settings"/>
+<entry key="name" type="xstring" value="Column Filter"/>
+<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="isInactive" type="xboolean" value="false"/>
+<config key="ports">
+<config key="port_1">
+<entry key="index" type="xint" value="1"/>
+<entry key="port_spec_class" type="xstring" value="org.knime.core.data.DataTableSpec"/>
+<entry key="port_object_class" type="xstring" value="org.knime.core.node.BufferedDataTable"/>
+<entry key="port_object_summary" type="xstring" value="Rows: 2528, Cols: 15"/>
+<entry key="port_dir_location" type="xstring" value="port_1"/>
+</config>
+</config>
+<config key="filestores">
+<entry key="file_store_location" type="xstring" isnull="true" value=""/>
+<entry key="file_store_id" type="xstring" value="117ae7fc-9fb2-40f7-8bdd-360f2127a211"/>
+</config>
+</config>
