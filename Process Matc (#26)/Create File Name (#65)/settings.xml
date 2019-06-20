@@ -13,36 +13,36 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<config key="BaseDir_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="BaseDir" type="xstring" value="C:\Users\EBogart\Desktop\commissions\tyson\outputs\"/>
-<config key="FileName_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="FileName" type="xstring" value="invoices"/>
 <config key="FileExtension_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="FileExtension" type="xstring" value=".csv"/>
-<config key="OverwriteFlag_Internals">
-<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
-<entry key="EnabledStatus" type="xboolean" value="true"/>
-</config>
-<entry key="OverwriteFlag" type="xboolean" value="false"/>
-<config key="OutputFlowVarName_Internals">
+<config key="FileName_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
-<entry key="OutputFlowVarName" type="xstring" value="filePath"/>
+<entry key="FileName" type="xstring" value="invoices"/>
+<config key="BaseDir_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="BaseDir" type="xstring" value="C:\Users\EBogart\Desktop\commissions\tyson\outputs\"/>
 <config key="previewArea_Internals">
 <entry key="SettingsModelID" type="xstring" value="SMID_string"/>
 <entry key="EnabledStatus" type="xboolean" value="true"/>
 </config>
 <entry key="previewArea" type="xstring" value="C:\Users\EBogart\Desktop\commissions\tyson\outputs\invoices.csv"/>
+<config key="OutputFlowVarName_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_string"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="OutputFlowVarName" type="xstring" value="filePath"/>
+<config key="OverwriteFlag_Internals">
+<entry key="SettingsModelID" type="xstring" value="SMID_boolean"/>
+<entry key="EnabledStatus" type="xboolean" value="true"/>
+</config>
+<entry key="OverwriteFlag" type="xboolean" value="false"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="CONFIGURED"/>
