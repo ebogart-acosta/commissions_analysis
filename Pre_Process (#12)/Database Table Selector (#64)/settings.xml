@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT * FROM #table#%%00010WHERE principal = $${SPRINCIPAL}$$ %%00010and year &gt; 2017%%00010and rtype = 'IN'%%00010and orderno &lt;&gt; 0"/>
+<entry key="statement" type="xstring" value="select control, count(distinct(product)) as unique_items from ordinv_detail%%00010group by control"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.informix.jdbc.IfxDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -25,8 +25,8 @@
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
 <entry key="state" type="xstring" value="EXECUTED"/>
-<entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBQueryNodeFactory2"/>
-<entry key="node-name" type="xstring" value="Database Query"/>
+<entry key="factory" type="xstring" value="org.knime.base.node.io.database.connection.DBTableSelectorNodeFactory"/>
+<entry key="node-name" type="xstring" value="Database Table Selector"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
 <entry key="node-bundle-symbolic-name" type="xstring" value="org.knime.base"/>
 <entry key="node-bundle-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
@@ -36,7 +36,7 @@
 <entry key="node-feature-vendor" type="xstring" value="KNIME AG, Zurich, Switzerland"/>
 <entry key="node-feature-version" type="xstring" value="3.7.1.v201901291053"/>
 <config key="factory_settings"/>
-<entry key="name" type="xstring" value="Database Query"/>
+<entry key="name" type="xstring" value="Database Table Selector"/>
 <entry key="hasContent" type="xboolean" value="true"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
@@ -44,7 +44,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 18 DB: default"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 2 DB: default"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="0703ed1e-2536-4822-9120-c9cf44e4ff37"/>
+<entry key="file_store_id" type="xstring" value="6e02fe61-8414-4f54-9d1a-f2fecd176499"/>
 </config>
 </config>

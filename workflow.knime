@@ -8,10 +8,10 @@
 <entry key="authored-by" type="xstring" value="EBogart"/>
 <entry key="authored-when" type="xstring" value="2019-06-06 13:40:10 -0400"/>
 <entry key="lastEdited-by" type="xstring" value="EBogart"/>
-<entry key="lastEdited-when" type="xstring" value="2019-06-20 14:28:10 -0400"/>
+<entry key="lastEdited-when" type="xstring" value="2019-06-20 14:47:21 -0400"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="IDLE"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <config key="workflow_credentials"/>
 <config key="annotations">
 <config key="annotation_0">
