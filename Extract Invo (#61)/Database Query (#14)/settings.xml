@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="SELECT * FROM #table#%%00010WHERE principal = $${SPRINCIPAL}$$ %%00010%%00009and rtype = 'IN' %%00010%%00009and orderno &lt;&gt; 0  %%00010%%00009and year &gt; 2017"/>
+<entry key="statement" type="xstring" value="SELECT * FROM #table#%%00010WHERE principal = $${SPRINCIPAL}$$%%00010%%00009and rtype = 'IN' %%00010%%00009and orderno &lt;&gt; 0  %%00010%%00009and year &gt; 2017"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.informix.jdbc.IfxDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -24,7 +24,7 @@
 <entry key="knimeVersion" type="xstring" value="3.7.1"/>
 </config>
 <entry key="customDescription" type="xstring" isnull="true" value=""/>
-<entry key="state" type="xstring" value="EXECUTED"/>
+<entry key="state" type="xstring" value="CONFIGURED"/>
 <entry key="factory" type="xstring" value="org.knime.base.node.io.database.DBQueryNodeFactory2"/>
 <entry key="node-name" type="xstring" value="Database Query"/>
 <entry key="node-bundle-name" type="xstring" value="KNIME Base Nodes"/>
@@ -37,21 +37,16 @@
 <entry key="node-feature-version" type="xstring" value="3.7.1.v201901291053"/>
 <config key="factory_settings"/>
 <entry key="name" type="xstring" value="Database Query"/>
-<entry key="hasContent" type="xboolean" value="true"/>
+<entry key="hasContent" type="xboolean" value="false"/>
 <entry key="isInactive" type="xboolean" value="false"/>
 <config key="ports">
 <config key="port_1">
 <entry key="index" type="xint" value="1"/>
-<entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
-<entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 15 DB: default"/>
-<entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
-<entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
-<entry key="port_dir_location" type="xstring" value="port_1"/>
+<entry key="port_dir_location" type="xstring" isnull="true" value=""/>
 </config>
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="b8edd814-a7da-450c-a3d4-17c9fe18d544"/>
+<entry key="file_store_id" type="xstring" isnull="true" value=""/>
 </config>
 </config>
