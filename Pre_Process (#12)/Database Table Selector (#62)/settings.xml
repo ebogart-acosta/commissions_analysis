@@ -6,7 +6,7 @@
 <entry key="memory_policy" type="xstring" value="CacheSmallInMemory"/>
 </config>
 <config key="model">
-<entry key="statement" type="xstring" value="select h.principal, year(h.odate) as year, h.customer, c.name as cust_name,  h.mcustomer, h.shipto, h.odate, h.sdate, h.ponumb, inv.invoiceno, st.addr1, st.city, st.state, st.zip, st.name as st_name%%00010from ohead as h%%00010INNER JOIN shipto as st ON h.customer = st.customer AND h.shipto = st.shipto%%00010LEFT OUTER JOIN ordinv_header as inv ON  h.order = inv.orderno%%00010LEFT OUTER JOIN customer as c ON h.customer = c.customer"/>
+<entry key="statement" type="xstring" value="select %%00010%%00009h.principal, year(h.odate) as year, h.customer, c.name as cust_name,  h.mcustomer, %%00010%%00009h.shipto, h.odate, h.sdate, h.ponumb, inv.invoiceno, st.addr1, st.city, st.state, st.zip, %%00010%%00009st.name as st_name, inv.rtype, inv.orderno, invd.control, inv.tndollars as inv_amount%%00010FROM ohead as h%%00010INNER JOIN shipto as st ON h.customer = st.customer AND h.shipto = st.shipto%%00010INNER JOIN ordinv_header as inv ON  h.order = inv.orderno%%00010INNER JOIN ordinv_detail as invd ON inv.control = invd.control%%00010INNER JOIN customer as c ON h.customer = c.customer"/>
 <entry key="execute_without_configure" type="xboolean" value="true"/>
 <entry key="driver" type="xstring" value="com.informix.jdbc.IfxDriver"/>
 <entry key="database" type="xstring" value="&lt;protocol&gt;://&lt;host&gt;:&lt;port&gt;/&lt;database_name&gt;"/>
@@ -44,7 +44,7 @@
 <entry key="index" type="xint" value="1"/>
 <entry key="port_spec_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObjectSpec"/>
 <entry key="port_object_class" type="xstring" value="org.knime.core.node.port.database.DatabasePortObject"/>
-<entry key="port_object_summary" type="xstring" value="No. of columns: 15 DB: default"/>
+<entry key="port_object_summary" type="xstring" value="No. of columns: 19 DB: default"/>
 <entry key="port_spec_location" type="xstring" value="spec/spec.zip"/>
 <entry key="port_object_location" type="xstring" value="object/portobject.zip"/>
 <entry key="port_dir_location" type="xstring" value="port_1"/>
@@ -52,6 +52,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="19755e8e-e1e4-4957-bfe9-f39fe5dfbe3f"/>
+<entry key="file_store_id" type="xstring" value="a7230e52-ccf9-40ba-97c6-f9d976b503c9"/>
 </config>
 </config>

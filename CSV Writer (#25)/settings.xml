@@ -19,7 +19,7 @@
 <entry key="decimalSeparator" type="xchar" value="."/>
 <entry key="lineEndingMode" type="xstring" value="SYST"/>
 <entry key="charSet" type="xstring" isnull="true" value=""/>
-<entry key="filename" type="xstring" value="C:\Users\EBogart\Desktop\commissions\tyson\outputs_draft\mismatched_products.csv"/>
+<entry key="filename" type="xstring" value="C:\Users\EBogart\Desktop\commissions\tyson\outputs\invoices.csv"/>
 <entry key="fileOverwritePolicy" type="xstring" value="Overwrite"/>
 <entry key="skipWriteColHeaderOnAppend" type="xboolean" value="false"/>
 <entry key="commentBegin" type="xstring" value=""/>
@@ -29,6 +29,12 @@
 <entry key="addTablename" type="xboolean" value="false"/>
 <entry key="userCommentLine" type="xstring" value=""/>
 <entry key="gzip" type="xboolean" value="false"/>
+</config>
+<config key="variables">
+<config key="filename">
+<entry key="used_variable" type="xstring" value="filePath"/>
+<entry key="exposed_variable" type="xstring" isnull="true" value=""/>
+</config>
 </config>
 <config key="nodeAnnotation">
 <entry key="text" type="xstring" value="Missing items in C-DB"/>
@@ -63,6 +69,6 @@
 <config key="ports"/>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="891aaa4e-5ab2-40b4-a280-0d1cd5a895c7"/>
+<entry key="file_store_id" type="xstring" value="160de277-3e5a-4f54-89cf-a2f39f368cb1"/>
 </config>
 </config>

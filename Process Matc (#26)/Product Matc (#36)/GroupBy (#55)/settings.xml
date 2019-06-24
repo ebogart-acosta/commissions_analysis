@@ -15,7 +15,7 @@
 <entry key="array-size" type="xint" value="6"/>
 <entry key="0" type="xstring" value="customer_name"/>
 <entry key="1" type="xstring" value="invoice"/>
-<entry key="2" type="xstring" value="%%65279client_sign_on"/>
+<entry key="2" type="xstring" value="client_sign_on"/>
 <entry key="3" type="xstring" value="client_name"/>
 <entry key="4" type="xstring" value="date"/>
 <entry key="5" type="xstring" value="principal"/>
@@ -152,6 +152,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="a034a973-a63c-407b-a39b-9fafe6d780f6"/>
+<entry key="file_store_id" type="xstring" value="3a33b304-acb1-4683-9184-ac05604e8a22"/>
 </config>
 </config>

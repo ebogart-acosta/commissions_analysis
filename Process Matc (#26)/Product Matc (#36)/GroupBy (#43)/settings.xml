@@ -15,7 +15,7 @@
 <entry key="array-size" type="xint" value="8"/>
 <entry key="0" type="xstring" value="customer_name"/>
 <entry key="1" type="xstring" value="invoice"/>
-<entry key="2" type="xstring" value="%%65279client_sign_on"/>
+<entry key="2" type="xstring" value="client_sign_on"/>
 <entry key="3" type="xstring" value="client_name"/>
 <entry key="4" type="xstring" value="date"/>
 <entry key="5" type="xstring" value="item_description"/>
@@ -66,16 +66,16 @@
 <entry key="39" type="xstring" value="customer"/>
 <entry key="40" type="xstring" value="mcustomer"/>
 <entry key="41" type="xstring" value="shipto"/>
-<entry key="42" type="xstring" value="odate"/>
-<entry key="43" type="xstring" value="sdate"/>
-<entry key="44" type="xstring" value="addr1"/>
-<entry key="45" type="xstring" value="city"/>
-<entry key="46" type="xstring" value="state"/>
-<entry key="47" type="xstring" value="zip"/>
-<entry key="48" type="xstring" value="cust_name"/>
-<entry key="49" type="xstring" value="st_name"/>
-<entry key="50" type="xstring" value="unique_items"/>
-<entry key="51" type="xstring" value="inv_amount"/>
+<entry key="42" type="xstring" value="addr1"/>
+<entry key="43" type="xstring" value="city"/>
+<entry key="44" type="xstring" value="state"/>
+<entry key="45" type="xstring" value="cust_name"/>
+<entry key="46" type="xstring" value="st_name"/>
+<entry key="47" type="xstring" value="unique_items"/>
+<entry key="48" type="xstring" value="inv_amount"/>
+<entry key="49" type="xstring" value="zip"/>
+<entry key="50" type="xstring" value="odate"/>
+<entry key="51" type="xstring" value="sdate"/>
 <entry key="52" type="xstring" value="GenWeb_Match"/>
 </config>
 <entry key="keep_all_columns_selected" type="xboolean" value="false"/>
@@ -200,6 +200,6 @@
 </config>
 <config key="filestores">
 <entry key="file_store_location" type="xstring" isnull="true" value=""/>
-<entry key="file_store_id" type="xstring" value="dc4dc2e1-88e6-486f-96c1-d49f3e83b6f3"/>
+<entry key="file_store_id" type="xstring" value="ac711ccc-ac34-4a55-8709-8bc68d0ad470"/>
 </config>
 </config>
